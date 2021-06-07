@@ -1,0 +1,20 @@
+Algoritmo pseudo10
+	Definir contador, suma, suma2, num Como Entero
+	Mientras suma < 1000 Hacer
+		Escribir "Ingrese numero"
+		Leer num
+		Si num % 6 == 0 Entonces
+			contador = contador + 1
+		FinSi
+		Si num >= 1 y num <= 10 Entonces
+			suma2 = suma2 + num
+		FinSi
+		suma = suma + num
+		Escribir ""
+		Escribir "La suma general va por ",suma
+		Escribir ""
+		Escribir "La suma de los numeros entre 1 y 10 por el momento es ",suma2
+		Escribir "Has ingresado ",contador," multiplos de 6"
+		Escribir ""
+	FinMientras
+FinAlgoritmo
